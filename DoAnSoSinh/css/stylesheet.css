@@ -1,0 +1,49 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.nav-link{
+    background-color: #242526;
+    color: aliceblue !important;
+    border-radius: 5px;
+}
+
+.nav-link.hover{
+    /* background-color: aliceblue;
+    color: #1e0707 !important; */
+}
+
+.nav-link:active{
+    background-color: #2f2b2b;
+    color: rgb(95, 255, 127) !important;
+}
+
+.submenu-content{
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    top: 70%;
+    border-radius: 5px;
+    right: -25%;
+    display: none;
+    background-color: #ffffff;
+}
+
+.submenu:hover .submenu-content{
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+.so{
+    font-size: 50px;
+}
