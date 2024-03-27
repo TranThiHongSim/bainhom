@@ -3,19 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-body {
-    font-family: roboto;
-    font-size: 20px;
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'), /* Adjust the path to your font file */
+         url('fonts/PlayfairDisplay-Regular.woff') format('woff'); /* Provide fallback formats if needed */
+    font-weight: normal;
+    font-style: normal;
 }
-
+body {
+    font-family: "Playfair Display", sans-serif;
+  }
 .nav-link{
     background-color: #242526;
     color: aliceblue !important;
     border-radius: 5px;
 }
-
 .nav-link.hover{
     /* background-color: aliceblue;
     color: #1e0707 !important; */
@@ -46,4 +48,5 @@ li{
 }
 .so{
     font-size: 50px;
+    color: red
 }
